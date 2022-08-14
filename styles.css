@@ -1,0 +1,82 @@
+.caja{
+    display:block;
+    background-color: gainsboro;
+    height: 2700px;
+}
+
+.cabeza{
+    background-color: white;
+    text-align: center;
+    font-size: 17px;
+    
+}
+
+.espacio{
+    padding-bottom: 40px;
+}
+
+.cuadro{
+display:flex;
+flex-flow: column wrap;
+max-height: 800px;
+min-height: 400px;
+width: 600px;
+margin-left: 390px;
+background-color: white;
+border: 1px solid gainsboro;
+box-shadow: 2px 2px 3px gray;
+}
+
+.arriba{
+    display: inline-block;
+    width: 600px;
+    height: 60px;
+    border-bottom: 1px solid gainsboro;
+    border-top: none;
+    border-left: none;
+    border-right: none ;
+}
+
+span{
+    color:gray
+}
+
+.nombre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    font-family: arial;
+   
+    
+}
+
+.numero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.contenido{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 0 auto;
+    max-width: 600px;
+    max-height: 1000px;
+    min-height: 400px;
+   
+}
+
+.final{
+    display: flex;
+    border-top: 1px solid gainsboro;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    font-family: arial;
+}
+    
